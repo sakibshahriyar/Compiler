@@ -1,0 +1,71 @@
+1.
+>>> x = input("Enter any string: ")
+Enter any string: s a k i b
+>>> a = x.split()
+>>> a.reverse()
+>>> print(' '.join(a))
+
+-------------------------------------------------
+2.
+>>> s = 'I am a Studnet'
+>>> s= s.split(' ')
+>>> for word in s:
+	if len(word)%2 == 0:
+		print(word)
+
+		
+
+
+-------------------------------------------------
+3.
+>>> tup = (1,2,3,4,5,6,7)
+>>> print("inputed tuple is : " + str(tup))
+inputed tuple is : (1, 2, 3, 4, 5, 6, 7)
+>>> res = sum(list(tup))
+>>> print("sum of tuple elements are : " + str(res))
+-------------------------------------------------------
+4.
+>>> List = [1, 2, 3, 4]
+>>> s = [(val, pow(val, 3)) for val in List]
+>>> print(s)
+--------------------------------------------------------
+5.
+>>> Set = {6,4,9,7,3,4}
+>>> print(type(Set))
+<class 'set'>
+>>> print("\nMaximum value of the said set:")
+
+Maximum value of the said set:
+>>> print(max(Set))
+9
+>>> print("\nMinimum value of the said set:")
+
+Minimum value of the said set:
+>>> print(min(Set))
+3
+---------------------------------------------------------
+6.
+my_dict = {'data1':100,'data2':-54,'data3':247}
+>>> print(sum(my_dict.values()))
+---------------------------------------------------------
+7.
+q=[]
+# enqueu
+q.append(1)
+q.append(2)
+q.append(3)
+# deque
+q.pop(0)
+
+print(q)
+--------------------------------------------------------
+8.
+stack=[]
+
+stack.append(4);
+stack.append(5);
+stack.append(6);
+
+x=stack.pop();
+print(stack)
+
